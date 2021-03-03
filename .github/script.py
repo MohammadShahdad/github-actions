@@ -9,7 +9,7 @@ telegram_api = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s"
 
 telegram_token = os.environ["TOKEN"]
 
-s_code = "TQB 2001E"
+s_code = "CCUB 4621"
 
 auth_data = {
     "mat": os.environ["MAT"],
