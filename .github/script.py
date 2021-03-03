@@ -30,7 +30,7 @@ for row in rows:
     cols = row.select("td")
     out[cols[1].text] = cols[2].text
 
-msg1 = s_code
+msg1 = s_code + "\n"
 msg2 = "\n".join([f"Section: {k}, Vacancy: {v}" for k,v in out.items()])
 msg = msg1 + msg2
 requests.get(telegram_api%(telegram_token,chat_id,msg))
