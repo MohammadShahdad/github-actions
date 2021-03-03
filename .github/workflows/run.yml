@@ -1,4 +1,4 @@
-name: Run scriptt
+name: Run script
 on:
   workflow_dispatch:
   schedule:
